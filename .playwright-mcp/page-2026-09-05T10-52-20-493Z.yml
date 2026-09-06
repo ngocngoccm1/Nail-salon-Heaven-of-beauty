@@ -1,0 +1,206 @@
+- generic [active] [ref=e1]:
+  - link "Přejít na obsah" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - link "Heaven of beauty, úvod" [ref=e4] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=e5]: Heaven of beauty
+      - generic [ref=e6]: NAIL SALON · BRNO
+    - navigation "Hlavní navigace" [ref=e7]:
+      - link "Naše péče" [ref=e8] [cursor=pointer]:
+        - /url: "#sluzby"
+      - link "Ceník" [ref=e9] [cursor=pointer]:
+        - /url: "#cenik"
+      - link "Inspirace" [ref=e10] [cursor=pointer]:
+        - /url: "#inspirace"
+      - link "Kde nás najdete" [ref=e11] [cursor=pointer]:
+        - /url: "#kontakt"
+    - link "Rezervovat termín" [ref=e12] [cursor=pointer]:
+      - /url: tel:+420774268696
+      - text: Rezervovat termín
+      - generic [aria-hidden] [ref=e13]: ↗
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - paragraph [ref=e17]: VÁŠ NEHTOVÝ SALON NA VEVEŘÍ
+        - heading [level=1] [ref=e18]:
+          - text: Malý detail.
+          - emphasis [ref=e19]: Velký pocit.
+        - paragraph [ref=e20]: Krásné nehty. Chvilka jen pro vás.Objevte svou oblíbenou péči v srdci Brna.
+        - generic [ref=e21]:
+          - link "Dopřejte si svůj čas" [ref=e22] [cursor=pointer]:
+            - /url: tel:+420774268696
+            - text: Dopřejte si svůj čas
+            - generic [aria-hidden] [ref=e23]: ↗
+          - link "Prohlédnout ceník" [ref=e24] [cursor=pointer]:
+            - /url: "#cenik"
+            - text: Prohlédnout ceník
+            - generic [aria-hidden] [ref=e25]: ↓
+      - generic [ref=e26]:
+        - img "Jemná růžová francouzská manikúra na saténu, ilustrační fotografie" [ref=e27]
+        - generic [aria-hidden] [ref=e28]: a little beauty, a little heaven.
+    - generic [ref=e29]:
+      - generic [ref=e30]: Veveří 339/34, Brno-střed
+      - generic [ref=e31]: Po–Pá 9:00–20:00 · So 9:00–17:00
+      - link "+420 774 268 696" [ref=e32] [cursor=pointer]:
+        - /url: tel:+420774268696
+        - text: +420 774 268 696 ↗
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - paragraph [ref=e35]: KRÁSA ZAČÍNÁ PÉČÍ
+        - heading [level=2] [ref=e36]:
+          - text: Pro ruce, které vyprávějí.
+          - emphasis [ref=e37]: Pro nohy, které vás nesou.
+        - paragraph [ref=e38]: Od přirozené úpravy po váš oblíbený odstín.Vyberte si péči podle sebe.
+      - generic [ref=e39]:
+        - link [ref=e40] [cursor=pointer]:
+          - /url: "#cenik"
+          - img "Inspirace jemnou francouzskou manikúrou" [ref=e42]
+          - generic [ref=e43]:
+            - heading "Manikúra" [level=3] [ref=e44]
+            - generic [aria-hidden] [ref=e45]: ↗
+          - paragraph [ref=e46]: Přirozená krása, CND Shellac i japonská manikúra P.Shine.
+        - link [ref=e47] [cursor=pointer]:
+          - /url: "#cenik"
+          - img "Jemně růžová pedikúra, ilustrační fotografie" [ref=e49]
+          - generic [ref=e50]:
+            - heading "Pedikúra" [level=3] [ref=e51]
+            - generic [aria-hidden] [ref=e52]: ↗
+          - paragraph [ref=e53]: Čas pro vaše nohy. Klasická péče, gel lak a Footlogix.
+        - link [ref=e54] [cursor=pointer]:
+          - /url: "#cenik"
+          - img "Růžové mandlové nehty, ilustrační fotografie" [ref=e56]
+          - generic [ref=e57]:
+            - heading "Nehtová modeláž" [level=3] [ref=e58]
+            - generic [aria-hidden] [ref=e59]: ↗
+          - paragraph [ref=e60]: Akrylové a gelové nehty. Tvar a barva ve vašem stylu.
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - paragraph [ref=e63]: VAŠE CHVILKA KRÁSY
+        - heading [level=2] [ref=e64]:
+          - text: Malé potěšení.
+          - emphasis [ref=e65]: Jasný ceník.
+        - paragraph [ref=e66]: Najděte svou péči a zavolejte nám.Společně domluvíme váš termín.
+        - link "+420 774 268 696" [ref=e67] [cursor=pointer]:
+          - /url: tel:+420774268696
+          - text: +420 774 268 696
+          - generic [aria-hidden] [ref=e68]: ↗
+        - generic [ref=e69]: Ceny jsou uvedeny v Kč.Cenu případných doplňků si prosím ověřte při rezervaci.
+      - generic [ref=e70]:
+        - tablist "Kategorie ceníku" [ref=e71]:
+          - tab "Manikúra" [selected] [ref=e72] [cursor=pointer]
+          - tab "Pedikúra" [ref=e73] [cursor=pointer]
+          - tab "Modeláž" [ref=e74] [cursor=pointer]
+        - tabpanel "Manikúra" [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - heading "Manikúra + CND Shellac" [level=3] [ref=e78]
+              - paragraph [ref=e79]: Upravené nehty s barevným finišem
+            - strong [ref=e80]: 500 Kč
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - heading "Manikúra + P.Shine" [level=3] [ref=e83]
+              - paragraph [ref=e84]: Japonská manikúra pro přirozený vzhled
+            - strong [ref=e85]: 250 Kč
+          - paragraph [ref=e86]: Nabízíme také klasickou manikúru. Cenu vám sdělíme při objednání.
+        - link "Vybráno? Domluvme si termín." [ref=e87] [cursor=pointer]:
+          - /url: tel:+420774268696
+          - text: Vybráno? Domluvme si termín.
+          - generic [aria-hidden] [ref=e88]: ↗
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - heading [level=2] [ref=e91]:
+          - text: Jaká barva jste
+          - emphasis [ref=e92]: dnes?
+        - paragraph [ref=e93]: Jemná a přirozená, nebo nepřehlédnutelná růžová?Trocha inspirace pro vaši příští návštěvu.
+      - generic [ref=e94]:
+        - figure "Růžová má své kouzlo." [ref=e95]:
+          - 'img "Inspirace: lesklé růžové nehty mandlového tvaru" [ref=e96]'
+        - figure "Jemnost, která se neomrzí." [ref=e98]:
+          - 'img "Inspirace: jemné francouzské nehty s bílými konečky" [ref=e99]'
+        - generic [ref=e101]:
+          - text: h.
+          - heading [level=3] [ref=e102]:
+            - text: Více krásy.
+            - emphasis [ref=e103]: Přímo od nás.
+          - paragraph [ref=e104]: Skutečné práce našeho salonu a novinky najdete na Instagramu.
+          - link "Náš Instagram" [ref=e105] [cursor=pointer]:
+            - /url: https://www.instagram.com/heaven_of_beauty_veveri_34/
+            - text: Náš Instagram
+            - generic [aria-hidden] [ref=e106]: ↗
+      - paragraph [ref=e107]: Fotografie na této stránce jsou ilustrační. Naše skutečné práce si prohlédněte na sociálních sítích.
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - heading [level=2] [ref=e110]:
+          - text: Ještě něco
+          - emphasis [ref=e111]: na srdci?
+        - paragraph [ref=e112]: Nejčastější otázky před návštěvou.
+      - generic [ref=e113]:
+        - group [ref=e114]:
+          - generic "Jak se mohu objednat?" [ref=e115] [cursor=pointer]:
+            - text: Jak se mohu objednat?
+            - generic [aria-hidden] [ref=e116]: +
+        - group [ref=e117]:
+          - generic "Nevím, jakou službu vybrat." [ref=e118] [cursor=pointer]:
+            - text: Nevím, jakou službu vybrat.
+            - generic [aria-hidden] [ref=e119]: +
+        - group [ref=e120]:
+          - generic "Kde si prohlédnu vaše práce?" [ref=e121] [cursor=pointer]:
+            - text: Kde si prohlédnu vaše práce?
+            - generic [aria-hidden] [ref=e122]: +
+        - group [ref=e123]:
+          - generic "Máte otevřeno i o víkendu?" [ref=e124] [cursor=pointer]:
+            - text: Máte otevřeno i o víkendu?
+            - generic [aria-hidden] [ref=e125]: +
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - paragraph [ref=e128]: KOUSEK NEBE NA VEVEŘÍ
+        - heading [level=2] [ref=e129]:
+          - text: Váš čas zazářit.
+          - emphasis [ref=e130]: Těšíme se na vás.
+        - paragraph [ref=e131]: Heaven of beautyVeveří 339/34602 00 Brno-střed
+        - link "+420 774 268 696" [ref=e132] [cursor=pointer]:
+          - /url: tel:+420774268696
+          - text: +420 774 268 696 ↗
+        - generic [ref=e133]:
+          - heading "Otevírací doba" [level=3] [ref=e134]
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - term [ref=e137]: Pondělí – pátek
+              - definition [ref=e138]: 09:00 – 20:00
+            - generic [ref=e139]:
+              - term [ref=e140]: Sobota
+              - definition [ref=e141]: 09:00 – 17:00
+            - generic [ref=e142]:
+              - term [ref=e143]: Neděle
+              - definition [ref=e144]: Zavřeno
+          - generic [ref=e145]: O svátcích se otevírací doba může lišit.
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - generic [aria-hidden] [ref=e148]: h.
+          - heading "Najdete nás na Veveří." [level=3] [ref=e149]: Najdete násna Veveří.
+          - paragraph [ref=e150]: Veveří 339/34, Brno-střed
+          - button "Zobrazit mapu" [ref=e151] [cursor=pointer]:
+            - text: Zobrazit mapu
+            - generic [aria-hidden] [ref=e152]: ↗
+          - generic [ref=e153]: Načte mapu od Google.
+        - link "Naplánovat cestu v Google Maps" [ref=e154] [cursor=pointer]:
+          - /url: https://maps.app.goo.gl/HpkLKFNCnaMzgwe66
+          - text: Naplánovat cestu v Google Maps
+          - generic [aria-hidden] [ref=e155]: ↗
+  - contentinfo [ref=e156]:
+    - generic [ref=e157]:
+      - link "Heaven of beauty NAIL SALON · BRNO" [ref=e158] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e159]: Heaven of beauty
+        - generic [ref=e160]: NAIL SALON · BRNO
+      - paragraph [ref=e161]: Malý rituál. Krásný pocit.
+      - generic [ref=e162]:
+        - link "Instagram ↗" [ref=e163] [cursor=pointer]:
+          - /url: https://www.instagram.com/heaven_of_beauty_veveri_34/
+        - link "Facebook ↗" [ref=e164] [cursor=pointer]:
+          - /url: https://www.facebook.com/p/Heaven-of-beauty-Nail-lash-salon-Brno-Veve%C5%99%C3%AD-34-61568354670072/
+    - generic [ref=e165]:
+      - generic [ref=e166]: © 2026 Heaven of beauty
+      - link "Zpět nahoru ↑" [ref=e167] [cursor=pointer]:
+        - /url: "#"
