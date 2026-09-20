@@ -19,3 +19,43 @@ galleryButton.addEventListener('click',()=>{
   galleryButton.setAttribute('aria-expanded',String(expanded));
   galleryButton.innerHTML=expanded?'Zobrazit méně <span aria-hidden="true">−</span>':'Zobrazit další práce <span aria-hidden="true">+</span>';
 });
+
+const videoCards=[...document.querySelectorAll('.reel')];
+const reduceVideoMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+function setVideoButton(card){
+  const playing=!card.querySelector('video').paused;
+  const button=card.querySelector('.reel-toggle');
+  const name=card.querySelector('figcaption').textContent;
+  button.textContent=playing?'Pozastavit video':'Přehrát video';
+  button.setAttribute('aria-label',`${playing?'Pozastavit':'Přehrát'} video: ${name}`);
+}
+function playVideo(card){
+  const video=card.querySelector('video');
+  if(!video.getAttribute('src'))video.src=video.dataset.src;
+  video.play().catch(()=>setVideoButton(card));
+}
+videoCards.forEach(card=>{
+  const video=card.querySelector('video');
+  const button=card.querySelector('.reel-toggle');
+  video.addEventListener('play',()=>setVideoButton(card));
+  video.addEventListener('pause',()=>setVideoButton(card));
+  button.addEventListener('click',()=>{
+    if(video.paused){card.dataset.userPaused='';playVideo(card)}
+    else{card.dataset.userPaused='true';video.pause()}
+  });
+});
+if('IntersectionObserver' in window){
+  const videoObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{
+    const card=entry.target;
+    const video=card.querySelector('video');
+    if(entry.isIntersecting&&!reduceVideoMotion.matches&&!document.hidden&&card.dataset.userPaused!=='true')playVideo(card);
+    else video.pause();
+  }),{threshold:.6});
+  videoCards.forEach(card=>videoObserver.observe(card));
+}
+document.addEventListener('visibilitychange',()=>{
+  if(document.hidden)videoCards.forEach(card=>card.querySelector('video').pause());
+});
+reduceVideoMotion.addEventListener('change',()=>{
+  if(reduceVideoMotion.matches)videoCards.forEach(card=>card.querySelector('video').pause());
+});

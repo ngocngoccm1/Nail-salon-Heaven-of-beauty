@@ -33,5 +33,25 @@
   .social-invite h3 br{display:revert}
 }
 
+/* Salon video portraits and the supplied pedicure photograph */
+.service-photo--pedicure{padding:0;background:var(--soft)}
+.service-photo--pedicure img{width:100%;height:100%;object-fit:contain}
+.videos-section{padding-top:80px;border-top:1px solid var(--line)}
+.reels-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;max-width:990px;margin:auto}
+.reel{min-width:0}
+.reel-media{position:relative;aspect-ratio:9/16;overflow:hidden;background:var(--soft)}
+.reel-media video{display:block;width:100%;height:100%;object-fit:cover}
+.reel-toggle{position:absolute;bottom:17px;left:17px;min-height:44px;border:1px solid rgba(255,255,255,.45);background:rgba(28,32,35,.76);color:#fafbfb;padding:10px 15px;font-size:11px;font-weight:600;backdrop-filter:blur(5px)}
+.reel-toggle:hover{background:rgba(28,32,35,.92)}
+.reel figcaption{font:italic 26px/1.2 var(--serif);margin-top:15px}
+.video-note{text-align:center;font-size:10px;margin-top:28px}
+@media(max-width:767px){
+  .videos-section{padding-top:62px}
+  .reels-grid{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:22px;padding:0 22px 16px;margin:0 -22px;overscroll-behavior-inline:contain}
+  .reel{flex:0 0 min(76vw,300px);scroll-snap-align:start}
+  .reel figcaption{font-size:23px}
+  .video-note{margin-top:15px}
+}
+
 
 
