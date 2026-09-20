@@ -11,3 +11,11 @@ tabs.forEach((tab,i)=>{tab.addEventListener('click',()=>selectTab(tab.dataset.ta
 document.querySelectorAll('[data-price-link]').forEach(link=>link.addEventListener('click',()=>selectTab(link.dataset.priceLink)));
 document.querySelector('#load-map').addEventListener('click',()=>{const map=document.querySelector('#map');const iframe=document.createElement('iframe');iframe.title='Heaven of beauty, Veveří 339/34, Brno';iframe.src='https://maps.google.com/maps?q=Heaven%20of%20beauty%20Veve%C5%99%C3%AD%20339%2F34%20Brno&output=embed';iframe.referrerPolicy='no-referrer-when-downgrade';iframe.allowFullscreen=true;map.replaceChildren(iframe);map.classList.add('map-loaded')});
 document.querySelector('#year').textContent=new Date().getFullYear();
+const galleryButton=document.querySelector('#show-gallery');
+galleryButton.addEventListener('click',()=>{
+  const more=document.querySelector('#gallery-more');
+  const expanded=galleryButton.getAttribute('aria-expanded')!=='true';
+  more.hidden=!expanded;
+  galleryButton.setAttribute('aria-expanded',String(expanded));
+  galleryButton.innerHTML=expanded?'Zobrazit méně <span aria-hidden="true">−</span>':'Zobrazit další práce <span aria-hidden="true">+</span>';
+});

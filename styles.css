@@ -7,5 +7,31 @@
 @media(max-width:360px){.hero h1{font-size:57px}.hero-actions{gap:12px}.hero-actions .button{padding:15px 12px;gap:10px}.hero-actions .text-link{font-size:8px;gap:6px}.hero-visual{height:300px}.services h2{font-size:32px}.price-tabs{gap:20px}.mobile-book{padding-left:16px;padding-right:16px}.mobile-book>span{font-size:17px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 
+/* Real salon photography */
+.hero-visual img{object-position:center bottom}
+.service-photo--pedicure{background:var(--soft);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;text-align:center;padding:25px}
+.service-photo--pedicure span{font:italic clamp(38px,4vw,58px)/1.06 var(--serif);color:var(--ink)}
+.service-photo--pedicure small{font:600 9px/1.5 var(--sans);letter-spacing:2px;color:var(--muted)}
+.inspiration-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;align-items:start}
+.inspiration-grid figure:first-child{margin-top:0}
+.inspiration-grid figure img,.inspiration-grid figure:nth-child(2) img{height:auto;aspect-ratio:1;object-fit:cover;object-position:center}
+.inspiration-grid figcaption{font:italic 25px/1.2 var(--serif);margin-top:12px}
+.gallery-more{margin-top:28px}
+.gallery-toggle{display:flex;align-items:center;justify-content:space-between;gap:45px;margin:35px auto 0;padding:13px 0;border:0;border-bottom:1px solid var(--line);background:none;color:var(--accent);font-size:12px;font-weight:600}
+.gallery-toggle span{font-size:21px;font-weight:400}
+.social-invite{max-width:420px;margin:56px auto 0;text-align:center;padding:20px}
+.social-invite p{max-width:320px;margin:auto}
+@media(prefers-color-scheme:dark){.hero-visual img,.service-photo img,.inspiration-grid img{filter:none}}
+@media(max-width:767px){
+  .inspiration-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+  .inspiration-grid figure:first-child{margin-top:0}
+  .inspiration-grid figure img,.inspiration-grid figure:nth-child(2) img{height:auto;aspect-ratio:1}
+  .inspiration-grid figcaption{font-size:18px;margin-top:9px}
+  .gallery-more{margin-top:16px}
+  .social-invite{margin-top:30px}
+  .service-photo--pedicure span{font-size:47px}
+  .social-invite h3 br{display:revert}
+}
+
 
 
