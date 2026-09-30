@@ -52,7 +52,126 @@
   .reels-grid{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:22px;padding:0 22px 16px;margin:0 -22px;overscroll-behavior-inline:contain}
   .reel{flex:0 0 min(76vw,300px);scroll-snap-align:start}
   .reel figcaption{font-size:23px}
-  .video-note{margin-top:15px}
+.video-note{margin-top:15px}
+}
+
+/* Stone-grey salon palette, with restrained teal and garnet details. */
+:root{
+  --bg:#dfe2e0;
+  --surface:#cdd2d0;
+  --soft:#bbc3c0;
+  --ink:#202b30;
+  --muted:#465459;
+  --accent:#285462;
+  --red:#a64450;
+  --line:#aab5b3;
+  --button-ink:#f5f5f1;
+  color-scheme:light;
+}
+body{background:var(--bg)}
+.header{
+  max-width:none;
+  height:96px;
+  padding:0 max(5%,calc((100% - 1300px)/2));
+  background:#343b3e;
+  color:#f8f8f5;
+}
+.brand{align-items:flex-start;position:relative}
+.brand>span{font-size:37px;line-height:.9;letter-spacing:-1.5px}
+.brand i{font-size:.72em}
+.brand small{margin:10px 0 0 4px;letter-spacing:3.5px;color:inherit;opacity:.78}
+.brand::after{content:"";width:66px;height:3px;margin:10px 0 0 4px;background:linear-gradient(90deg,#6195a1 0 48%,transparent 48% 58%,#ad4754 58%)}
+.header nav{color:#ebeeeb}
+.header nav a:hover{color:#cce6e5}
+.header-book{background:#f6f6f2;color:#263238;border-color:#f6f6f2;border-radius:999px;font-size:11px;letter-spacing:.25px}
+.header-book span{color:var(--red)}
+.hero{
+  max-width:none;
+  min-height:650px;
+  padding:90px 24px;
+  display:grid;
+  grid-template-columns:1fr;
+  place-items:center;
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  background:#3c4445;
+  color:#fafaf7;
+}
+.hero-visual{position:absolute;inset:0;z-index:-2;min-height:0;border-radius:0;overflow:hidden}
+.hero-visual img{position:absolute;inset:0;width:100%;height:100%;object-position:center 42%;filter:saturate(.68) brightness(.76)}
+.hero-visual::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(37,45,47,.36),rgba(37,45,47,.52) 47%,rgba(29,37,40,.72))}
+.hero-copy{width:min(100%,900px);padding:0;align-items:center;text-align:center}
+.hero .eyebrow{color:#e2e9e8;letter-spacing:4px;margin-bottom:24px}
+.hero h1{font-size:clamp(72px,8vw,122px);line-height:.94;letter-spacing:-3px;margin-bottom:28px;text-shadow:0 2px 18px #1d262852}
+.hero h1 em{color:#f3f4f0}
+.hero-copy>p:not(.eyebrow){font:italic clamp(18px,2vw,25px)/1.5 var(--serif);color:#f5f5f2;text-shadow:0 2px 12px #172025aa}
+.hero-actions{justify-content:center;margin-top:34px;gap:30px}
+.hero-actions .button{background:#f6f6f2;color:#263238;border-color:#f6f6f2;border-radius:999px;padding:19px 30px;letter-spacing:.2px}
+.hero-actions .button span{color:var(--red)}
+.hero-actions .text-link{color:#f6f6f2;border-color:#f5f5f28a}
+.eyebrow::before{content:"";display:inline-block;width:17px;height:2px;background:var(--red);vertical-align:middle;margin-right:11px}
+.quick-info{max-width:none;margin:0;padding:24px max(5%,calc((100% - 1250px)/2));background:#c3c9c6;border-color:var(--line);color:#28383e}
+.quick-info a{font-weight:700}
+.section-intro h2 em,.pricing h2 em,.faq h2 em,.contact h2 em,.social-invite h3 em{color:var(--accent)}
+.services,.inspiration,.videos-section,.faq{background:var(--bg)}
+.service-title>span,.contact-phone span,.map-directions span{color:var(--red)}
+.price-tabs button[aria-selected=true]{border-color:var(--red);color:var(--ink)}
+.price-book,.gallery-toggle,.social-monogram,.map-monogram{color:var(--accent)}
+.reel-toggle{background:#233e46e8}
+footer{max-width:none;padding:55px max(5%,calc((100% - 1250px)/2)) 28px;background:#343b3e;color:#f6f6f2}
+footer p,footer .footer-bottom{color:#d5dcda}
+footer .brand>span{font-size:31px}
+footer .footer-top{border-bottom:1px solid #6b7778}
+footer .footer-bottom{border:0}
+
+@media(max-width:1100px){
+  .header{height:88px;padding:0 4%}
+  .hero{min-height:580px;padding:75px 24px}
+  .hero-copy{padding:0}
+  .hero h1{font-size:clamp(70px,9vw,100px)}
+  .hero-visual{min-height:0}
+  .quick-info{margin:0;padding:22px 4%}
+}
+@media(max-width:767px){
+  .header{height:82px;padding:0 18px;display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:8px}
+  .brand{min-width:0}
+  .brand>span{font-size:30px;letter-spacing:-1px}
+  .brand small{font-size:6px;letter-spacing:2.6px;margin-top:7px}
+  .brand::after{width:50px;height:2px;margin-top:6px}
+  .header-book{display:inline-flex;padding:11px 13px;font-size:0;gap:0;min-height:40px}
+  .header-book::before{content:"Rezervovat";font-size:10px;font-weight:700}
+  .header-book span{display:none}
+  .menu-button{flex:0 0 40px;width:40px;height:40px;border-color:#cbd3d0}
+  .menu-button span{background:#f6f6f2}
+  .header nav{top:82px;background:#343b3e;color:#f6f6f2;border-color:#687274}
+  .hero{min-height:650px;padding:56px 22px 75px;gap:0}
+  .hero-copy{width:100%;max-width:none;flex:none;padding:0}
+  .hero .eyebrow{font-size:8px;letter-spacing:2px;line-height:1.8;margin-bottom:18px}
+  .hero h1{font-size:clamp(48px,12vw,72px);letter-spacing:-2px;line-height:.98;margin-bottom:24px;white-space:nowrap}
+  .hero-copy>p:not(.eyebrow){font-size:19px;line-height:1.45}
+  .hero-actions{width:100%;flex-direction:column;gap:16px;margin-top:30px}
+  .hero-actions .button{width:min(100%,320px);padding:18px 22px;font-size:11px;justify-content:center}
+  .hero-actions .text-link{font-size:10px}
+  .hero-visual{height:100%;min-height:0}
+  .hero-visual img{object-position:center 46%}
+  .hero-visual::after{background:linear-gradient(180deg,rgba(31,40,43,.49),rgba(31,40,43,.45) 42%,rgba(25,33,36,.76))}
+  .quick-info{margin:0;padding:19px 22px}
+  .mobile-book{background:#264c56;color:#fff}
+}
+@media(max-width:360px){
+  .header{padding:0 13px;gap:7px}
+  .brand>span{font-size:25px}
+  .header-book{padding:9px 10px}
+  .header-book::before{font-size:9px}
+  .menu-button{flex-basis:36px;width:36px;height:36px}
+  .hero{min-height:600px;padding-inline:16px}
+  .hero h1{font-size:53px}
+}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#dfe2e0;--surface:#cdd2d0;--soft:#bbc3c0;--ink:#202b30;--muted:#465459;--accent:#285462;--line:#aab5b3;--button-ink:#f5f5f1;color-scheme:light}
+  .hero-visual img,.service-photo img,.inspiration-grid img{filter:none}
+  .hero-visual img{filter:saturate(.68) brightness(.76)}
 }
 
 
