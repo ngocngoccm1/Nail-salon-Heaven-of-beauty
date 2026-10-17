@@ -28,4 +28,4 @@ Ba video người dùng cung cấp nằm trong `assets/video/`. Video giữ nguy
 
 ## Kiểm tra
 
-Lần cập nhật 17/10/2026 đã kiểm tra 320, 390, 768 và 1440 px: không tràn ngang, menu điện thoại mở đúng, chuyển tab giá và mở rộng thư viện hoạt động, video có thể phát/dừng, không có lỗi JavaScript. Đã xem trực tiếp ảnh chụp phần đầu, dịch vụ bổ sung, đánh giá và hai liên kết Instagram/Maps trên điện thoại lẫn desktop. `index.html`, dữ liệu JSON-LD và đường dẫn tài nguyên cục bộ đã kiểm tra hợp lệ. Ảnh chụp kiểm tra trong `qa/`; báo cáo Lighthouse cũ trong đó không phản ánh phiên bản hiện tại.
+Lần cập nhật 17/10/2026 đã kiểm tra 320, 390, 768 và 1440 px: không tràn ngang, menu điện thoại mở đúng, chuyển tab giá hoạt động và toàn bộ 18 ảnh thư viện hiển thị sẵn, video có thể phát/dừng, không có lỗi JavaScript. Đã xem trực tiếp ảnh chụp phần đầu, dịch vụ bổ sung, đánh giá và hai liên kết Instagram/Maps trên điện thoại lẫn desktop. `index.html`, dữ liệu JSON-LD và đường dẫn tài nguyên cục bộ đã kiểm tra hợp lệ. Ảnh chụp kiểm tra trong `qa/`; báo cáo Lighthouse cũ trong đó không phản ánh phiên bản hiện tại.

@@ -10,15 +10,6 @@ function selectTab(name,focus=false){tabs.forEach(tab=>{const active=tab.dataset
 tabs.forEach((tab,i)=>{tab.addEventListener('click',()=>selectTab(tab.dataset.tab));tab.addEventListener('keydown',e=>{let next;if(e.key==='ArrowRight')next=(i+1)%tabs.length;if(e.key==='ArrowLeft')next=(i-1+tabs.length)%tabs.length;if(e.key==='Home')next=0;if(e.key==='End')next=tabs.length-1;if(next!==undefined){e.preventDefault();selectTab(tabs[next].dataset.tab,true)}})});
 document.querySelectorAll('[data-price-link]').forEach(link=>link.addEventListener('click',()=>selectTab(link.dataset.priceLink)));
 document.querySelector('#year').textContent=new Date().getFullYear();
-const galleryButton=document.querySelector('#show-gallery');
-galleryButton.addEventListener('click',()=>{
-  const more=document.querySelector('#gallery-more');
-  const expanded=galleryButton.getAttribute('aria-expanded')!=='true';
-  more.hidden=!expanded;
-  galleryButton.setAttribute('aria-expanded',String(expanded));
-  galleryButton.innerHTML=expanded?'Zobrazit méně <span aria-hidden="true">−</span>':'Zobrazit další práce <span aria-hidden="true">+</span>';
-});
-
 const videoCards=[...document.querySelectorAll('.reel')];
 const reduceVideoMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
 function setVideoButton(card){

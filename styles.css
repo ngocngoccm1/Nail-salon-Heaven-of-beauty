@@ -16,9 +16,6 @@
 .inspiration-grid figure:first-child{margin-top:0}
 .inspiration-grid figure img,.inspiration-grid figure:nth-child(2) img{height:auto;aspect-ratio:1;object-fit:cover;object-position:center}
 .inspiration-grid figcaption{font:italic 25px/1.2 var(--serif);margin-top:12px}
-.gallery-more{margin-top:28px}
-.gallery-toggle{display:flex;align-items:center;justify-content:space-between;gap:45px;margin:35px auto 0;padding:13px 0;border:0;border-bottom:1px solid var(--line);background:none;color:var(--accent);font-size:12px;font-weight:600}
-.gallery-toggle span{font-size:21px;font-weight:400}
 .social-invite{max-width:420px;margin:56px auto 0;text-align:center;padding:20px}
 .social-invite p{max-width:320px;margin:auto}
 @media(prefers-color-scheme:dark){.hero-visual img,.service-photo img,.inspiration-grid img{filter:none}}
@@ -27,7 +24,6 @@
   .inspiration-grid figure:first-child{margin-top:0}
   .inspiration-grid figure img,.inspiration-grid figure:nth-child(2) img{height:auto;aspect-ratio:1}
   .inspiration-grid figcaption{font-size:18px;margin-top:9px}
-  .gallery-more{margin-top:16px}
   .social-invite{margin-top:30px}
   .service-photo--pedicure span{font-size:47px}
   .social-invite h3 br{display:revert}
@@ -117,7 +113,7 @@ body{background:var(--bg)}
 .services,.inspiration,.videos-section,.faq{background:var(--bg)}
 .service-title>span,.contact-phone span,.map-directions span{color:var(--red)}
 .price-tabs button[aria-selected=true]{border-color:var(--red);color:var(--ink)}
-.price-book,.gallery-toggle,.social-monogram,.map-monogram{color:var(--accent)}
+.price-book,.social-monogram,.map-monogram{color:var(--accent)}
 .reel-toggle{background:#233e46e8}
 footer{max-width:none;padding:55px max(5%,calc((100% - 1250px)/2)) 28px;background:#343b3e;color:#f6f6f2}
 footer p,footer .footer-bottom{color:#d5dcda}
