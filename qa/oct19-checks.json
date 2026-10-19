@@ -1,0 +1,246 @@
+[
+  {
+    "width": 320,
+    "layout": {
+      "width": 320,
+      "scroll": 320
+    },
+    "social": [
+      {
+        "url": "https://www.facebook.com/p/Heaven-of-beauty-Nail-lash-salon-Brno-Veve%C5%99%C3%AD-34-61568354670072/",
+        "height": 44
+      },
+      {
+        "url": "https://www.instagram.com/heaven_of_beauty_veveri_34/",
+        "height": 44
+      }
+    ],
+    "videos": [
+      {
+        "src": "assets/video/salon-visit.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/nail-detail.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/finished-manicure.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/salon-moment-01.mp4",
+        "width": 368,
+        "height": 656,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/salon-moment-02.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "layout": {
+      "width": 390,
+      "scroll": 390
+    },
+    "social": [
+      {
+        "url": "https://www.facebook.com/p/Heaven-of-beauty-Nail-lash-salon-Brno-Veve%C5%99%C3%AD-34-61568354670072/",
+        "height": 44
+      },
+      {
+        "url": "https://www.instagram.com/heaven_of_beauty_veveri_34/",
+        "height": 44
+      }
+    ],
+    "videos": [
+      {
+        "src": "assets/video/salon-visit.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/nail-detail.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/finished-manicure.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/salon-moment-01.mp4",
+        "width": 368,
+        "height": 656,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/salon-moment-02.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 768,
+    "layout": {
+      "width": 768,
+      "scroll": 768
+    },
+    "social": [
+      {
+        "url": "https://www.facebook.com/p/Heaven-of-beauty-Nail-lash-salon-Brno-Veve%C5%99%C3%AD-34-61568354670072/",
+        "height": 44
+      },
+      {
+        "url": "https://www.instagram.com/heaven_of_beauty_veveri_34/",
+        "height": 44
+      }
+    ],
+    "videos": [
+      {
+        "src": "assets/video/salon-visit.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/nail-detail.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/finished-manicure.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/salon-moment-01.mp4",
+        "width": 368,
+        "height": 656,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/salon-moment-02.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "layout": {
+      "width": 1440,
+      "scroll": 1440
+    },
+    "social": [
+      {
+        "url": "https://www.facebook.com/p/Heaven-of-beauty-Nail-lash-salon-Brno-Veve%C5%99%C3%AD-34-61568354670072/",
+        "height": 44
+      },
+      {
+        "url": "https://www.instagram.com/heaven_of_beauty_veveri_34/",
+        "height": 44
+      }
+    ],
+    "videos": [
+      {
+        "src": "assets/video/salon-visit.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/nail-detail.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/finished-manicure.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/salon-moment-01.mp4",
+        "width": 368,
+        "height": 656,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      },
+      {
+        "src": "assets/video/salon-moment-02.mp4",
+        "width": 720,
+        "height": 1280,
+        "muted": true,
+        "playsinline": true,
+        "error": null
+      }
+    ],
+    "errors": []
+  },
+  {
+    "autoplay": "passed",
+    "pauseOffscreen": "passed"
+  }
+]
