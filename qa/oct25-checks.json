@@ -1,0 +1,57 @@
+[
+  {
+    "width": 320,
+    "uniformLightBackground": true,
+    "lashPrices": "passed",
+    "lamination": "passed",
+    "originalNailPrices": "passed",
+    "tabsAndKeyboard": "passed",
+    "salonImages": 7,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "uniformLightBackground": true,
+    "lashPrices": "passed",
+    "lamination": "passed",
+    "originalNailPrices": "passed",
+    "tabsAndKeyboard": "passed",
+    "salonImages": 7,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "uniformLightBackground": true,
+    "lashPrices": "passed",
+    "lamination": "passed",
+    "originalNailPrices": "passed",
+    "tabsAndKeyboard": "passed",
+    "salonImages": 7,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "uniformLightBackground": true,
+    "lashPrices": "passed",
+    "lamination": "passed",
+    "originalNailPrices": "passed",
+    "tabsAndKeyboard": "passed",
+    "salonImages": 7,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "uniformLightBackground": true,
+    "lashPrices": "passed",
+    "lamination": "passed",
+    "originalNailPrices": "passed",
+    "tabsAndKeyboard": "passed",
+    "salonImages": 7,
+    "overflow": false,
+    "errors": []
+  }
+]

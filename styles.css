@@ -82,16 +82,16 @@
 .video-note{margin-top:15px}
 }
 
-/* Stone-grey salon palette, with restrained teal and garnet details. */
+/* One bright background throughout the salon page. */
 :root{
-  --bg:#dfe2e0;
-  --surface:#cdd2d0;
-  --soft:#bbc3c0;
+  --bg:#faf9f6;
+  --surface:#faf9f6;
+  --soft:#faf9f6;
   --ink:#202b30;
   --muted:#465459;
   --accent:#285462;
   --red:#a64450;
-  --line:#aab5b3;
+  --line:#d9dedb;
   --button-ink:#f5f5f1;
   color-scheme:light;
 }
@@ -100,18 +100,18 @@ body{background:var(--bg)}
   max-width:none;
   height:96px;
   padding:0 max(5%,calc((100% - 1300px)/2));
-  background:#343b3e;
-  color:#f8f8f5;
+  background:var(--bg);
+  color:var(--ink);
 }
 .brand{align-items:flex-start;position:relative}
 .brand>span{font-size:37px;line-height:.9;letter-spacing:-1.5px}
 .brand i{font-size:.72em}
 .brand small{margin:10px 0 0 4px;letter-spacing:3.5px;color:inherit;opacity:.78}
 .brand::after{content:"";width:66px;height:3px;margin:10px 0 0 4px;background:linear-gradient(90deg,#6195a1 0 48%,transparent 48% 58%,#ad4754 58%)}
-.header nav{color:#ebeeeb}
-.header nav a:hover{color:#cce6e5}
-.header-book{background:#f6f6f2;color:#263238;border-color:#f6f6f2;border-radius:999px;font-size:11px;letter-spacing:.25px}
-.header-book span{color:var(--red)}
+.header nav{color:var(--ink)}
+.header nav a:hover{color:var(--accent)}
+.header-book{background:var(--accent);color:var(--button-ink);border-color:var(--accent);border-radius:999px;font-size:11px;letter-spacing:.25px}
+.header-book span{color:inherit}
 .hero{
   max-width:none;
   min-height:650px;
@@ -138,7 +138,7 @@ body{background:var(--bg)}
 .hero-actions .button span{color:var(--red)}
 .hero-actions .text-link{color:#f6f6f2;border-color:#f5f5f28a}
 .eyebrow::before{content:"";display:inline-block;width:17px;height:2px;background:var(--red);vertical-align:middle;margin-right:11px}
-.quick-info{max-width:none;margin:0;padding:24px max(5%,calc((100% - 1250px)/2));background:#c3c9c6;border-color:var(--line);color:#28383e}
+.quick-info{max-width:none;margin:0;padding:24px max(5%,calc((100% - 1250px)/2));background:var(--bg);border-color:var(--line);color:var(--ink)}
 .quick-info a{font-weight:700}
 .section-intro h2 em,.pricing h2 em,.faq h2 em,.contact h2 em,.social-invite h3 em{color:var(--accent)}
 .services,.inspiration,.videos-section,.faq{background:var(--bg)}
@@ -146,10 +146,10 @@ body{background:var(--bg)}
 .price-tabs button[aria-selected=true]{border-color:var(--red);color:var(--ink)}
 .price-book,.social-monogram,.map-monogram{color:var(--accent)}
 .reel-toggle{background:#233e46e8}
-footer{max-width:none;padding:55px max(5%,calc((100% - 1250px)/2)) 28px;background:#343b3e;color:#f6f6f2}
-footer p,footer .footer-bottom{color:#d5dcda}
+footer{max-width:none;padding:55px max(5%,calc((100% - 1250px)/2)) 28px;background:var(--bg);color:var(--ink)}
+footer p,footer .footer-bottom{color:var(--muted)}
 footer .brand>span{font-size:31px}
-footer .footer-top{border-bottom:1px solid #6b7778}
+footer .footer-top{border-bottom:1px solid var(--line)}
 footer .footer-bottom{border:0}
 
 @media(max-width:1100px){
@@ -170,8 +170,8 @@ footer .footer-bottom{border:0}
   .header-book::before{content:"Rezervovat";font-size:10px;font-weight:700}
   .header-book span{display:none}
   .menu-button{flex:0 0 40px;width:40px;height:40px;border-color:#cbd3d0}
-  .menu-button span{background:#f6f6f2}
-  .header nav{top:82px;background:#343b3e;color:#f6f6f2;border-color:#687274}
+  .menu-button span{background:var(--ink)}
+  .header nav{top:82px;background:var(--bg);color:var(--ink);border-color:var(--line)}
   .hero{min-height:650px;padding:56px 22px 75px;gap:0}
   .hero-copy{width:100%;max-width:none;flex:none;padding:0}
   .hero .eyebrow{font-size:8px;letter-spacing:2px;line-height:1.8;margin-bottom:18px}
@@ -196,7 +196,7 @@ footer .footer-bottom{border:0}
   .hero h1{font-size:53px}
 }
 @media(prefers-color-scheme:dark){
-  :root{--bg:#dfe2e0;--surface:#cdd2d0;--soft:#bbc3c0;--ink:#202b30;--muted:#465459;--accent:#285462;--line:#aab5b3;--button-ink:#f5f5f1;color-scheme:light}
+  :root{--bg:#faf9f6;--surface:#faf9f6;--soft:#faf9f6;--ink:#202b30;--muted:#465459;--accent:#285462;--line:#d9dedb;--button-ink:#f5f5f1;color-scheme:light}
   .hero-visual img,.service-photo img,.inspiration-grid img{filter:none}
   .hero-visual img{filter:saturate(.68) brightness(.76)}
 }
@@ -344,3 +344,55 @@ footer .footer-bottom{border:0}
 
 
 
+
+/* Readable service prices and the supplied salon photographs. */
+.price-content{min-width:0}
+.price-tabs{overflow-x:auto;scrollbar-width:thin;gap:24px}
+.price-tabs button{flex:none;white-space:nowrap;min-height:48px}
+.care-actions{display:flex;flex-wrap:wrap;gap:12px 28px}
+.lash-pricing-intro{font-size:12px;margin:20px 0}
+.lash-price-group{border-bottom:1px solid var(--line)}
+.lash-price-group summary{gap:12px;min-height:74px;padding:20px 0}
+.lash-price-group summary h3{font-size:13px;font-weight:600;line-height:1.65;flex:1;min-width:0}
+.lash-price-group summary b{font-size:11px;font-weight:500;white-space:nowrap;color:var(--muted)}
+.lash-price-group summary>span{flex:none}
+.lash-price-body{padding:0 0 20px}
+.lash-price-body .price-row{padding:8px 0 18px}
+.lash-price-body h4{font-size:11px;font-weight:600;color:var(--accent);margin:22px 0 12px}
+.refill-prices{margin:0}
+.refill-prices>div{display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:11px 0;border-bottom:1px solid var(--line)}
+.refill-prices>div:last-child{border-bottom:0}
+.refill-prices dt{font-size:12px;line-height:1.6;color:var(--muted)}
+.refill-prices dd{margin:0;flex:none;white-space:nowrap;font-size:14px;font-weight:600}
+.refill-prices small{font-size:10px;font-weight:400;margin-left:4px}
+.salon-section{border-top:1px solid var(--line)}
+.salon-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.salon-grid img{height:auto;aspect-ratio:3/4;object-fit:cover}
+.salon-grid figcaption,.salon-history-grid figcaption{font:italic 24px/1.25 var(--serif);margin-top:14px}
+.salon-history-heading{text-align:center;margin:55px 0 28px}
+.salon-history-heading h3{font:36px/1.2 var(--serif)}
+.salon-history-heading p{font-size:12px;margin-top:12px}
+.salon-history-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}
+.salon-history-grid img{height:auto;width:100%;object-fit:contain}
+@media(max-width:1100px){
+  .header{gap:20px}
+  .header nav{gap:18px;font-size:10px}
+  .salon-grid{gap:18px}
+  .salon-grid figcaption{font-size:21px}
+}
+@media(max-width:767px){
+  .price-tabs{gap:22px}
+  .lash-price-group summary{gap:8px;flex-wrap:wrap}
+  .lash-price-group summary h3{font-size:12px;flex-basis:calc(100% - 35px);order:0}
+  .lash-price-group summary>span{order:1}
+  .lash-price-group summary b{order:2;flex-basis:100%;font-size:11px}
+  .lash-price-group summary>span{margin-left:auto}
+  .refill-prices dt{font-size:11px}
+  .refill-prices dd{font-size:13px}
+  .salon-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 16px}
+  .salon-grid figcaption{font-size:20px;margin-top:11px}
+  .salon-history-heading{margin-top:38px;margin-bottom:24px}
+  .salon-history-heading h3{font-size:31px}
+  .salon-history-grid{grid-template-columns:1fr;gap:30px;max-width:430px;margin:auto}
+  .salon-history-grid figcaption{font-size:23px}
+}
