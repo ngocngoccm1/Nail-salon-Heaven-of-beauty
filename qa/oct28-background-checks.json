@@ -1,0 +1,610 @@
+[
+  {
+    "width": 320,
+    "colorScheme": "light",
+    "backgrounds": [
+      {
+        "section": "HTML",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "BODY",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "header",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "main",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "hero",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "quick-info",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "videa",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "proc-k-nam",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "pece",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "salon",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "recenze",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "sluzby",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "cenik",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "inspirace",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "section faq",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "kontakt",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "FOOTER",
+        "background": "rgb(250, 249, 246)"
+      }
+    ],
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "colorScheme": "dark",
+    "backgrounds": [
+      {
+        "section": "HTML",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "BODY",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "header",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "main",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "hero",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "quick-info",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "videa",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "proc-k-nam",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "pece",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "salon",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "recenze",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "sluzby",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "cenik",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "inspirace",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "section faq",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "kontakt",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "FOOTER",
+        "background": "rgb(250, 249, 246)"
+      }
+    ],
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "colorScheme": "light",
+    "backgrounds": [
+      {
+        "section": "HTML",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "BODY",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "header",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "main",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "hero",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "quick-info",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "videa",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "proc-k-nam",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "pece",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "salon",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "recenze",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "sluzby",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "cenik",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "inspirace",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "section faq",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "kontakt",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "FOOTER",
+        "background": "rgb(250, 249, 246)"
+      }
+    ],
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "colorScheme": "dark",
+    "backgrounds": [
+      {
+        "section": "HTML",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "BODY",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "header",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "main",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "hero",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "quick-info",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "videa",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "proc-k-nam",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "pece",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "salon",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "recenze",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "sluzby",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "cenik",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "inspirace",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "section faq",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "kontakt",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "FOOTER",
+        "background": "rgb(250, 249, 246)"
+      }
+    ],
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "colorScheme": "light",
+    "backgrounds": [
+      {
+        "section": "HTML",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "BODY",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "header",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "main",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "hero",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "quick-info",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "videa",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "proc-k-nam",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "pece",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "salon",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "recenze",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "sluzby",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "cenik",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "inspirace",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "section faq",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "kontakt",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "FOOTER",
+        "background": "rgb(250, 249, 246)"
+      }
+    ],
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "colorScheme": "dark",
+    "backgrounds": [
+      {
+        "section": "HTML",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "BODY",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "header",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "main",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "hero",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "quick-info",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "videa",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "proc-k-nam",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "pece",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "salon",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "recenze",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "sluzby",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "cenik",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "inspirace",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "section faq",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "kontakt",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "FOOTER",
+        "background": "rgb(250, 249, 246)"
+      }
+    ],
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "colorScheme": "light",
+    "backgrounds": [
+      {
+        "section": "HTML",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "BODY",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "header",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "main",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "hero",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "quick-info",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "videa",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "proc-k-nam",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "pece",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "salon",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "recenze",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "sluzby",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "cenik",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "inspirace",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "section faq",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "kontakt",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "FOOTER",
+        "background": "rgb(250, 249, 246)"
+      }
+    ],
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "colorScheme": "dark",
+    "backgrounds": [
+      {
+        "section": "HTML",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "BODY",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "header",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "main",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "hero",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "quick-info",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "videa",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "proc-k-nam",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "pece",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "salon",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "recenze",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "sluzby",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "cenik",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "inspirace",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "section faq",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "kontakt",
+        "background": "rgb(250, 249, 246)"
+      },
+      {
+        "section": "FOOTER",
+        "background": "rgb(250, 249, 246)"
+      }
+    ],
+    "overflow": false,
+    "errors": []
+  }
+]

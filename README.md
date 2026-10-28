@@ -44,3 +44,8 @@ Cập nhật 19/10/2026: đã kiểm tra bằng Chromium ở 320, 390, 768 và 1
 - Bỏ các mảng nền xám xen kẽ; các phần nội dung, thanh đầu và chân trang dùng cùng nền sáng. Ảnh nền hero và các ô ảnh vẫn giữ độ tương phản để đọc chữ.
 
 Kiểm tra 25/10/2026: Chromium ở 320, 390, 768, 1024 và 1440 px; không tràn ngang, nền nội dung đồng nhất cả khi thiết bị chọn light/dark, menu điện thoại và điều khiển bàn phím của tab giá hoạt động. Đã đối chiếu toàn bộ giá nối/dặm mi và laminace, giữ nguyên giá nail đã xác nhận, giải mã thành công toàn bộ ảnh, không có lỗi JavaScript hoặc HTTP. Đã xem ảnh chụp phần đầu, salon, bảng giá mi/laminace, đánh giá và liên hệ trên điện thoại và desktop. Kết quả tại `qa/oct25-checks.json`, ảnh chụp tại `qa/oct25-*.png`.
+
+
+## Sửa nền đồng nhất ngày 28/10/2026
+
+Gộp các khai báo màu về một bộ biến duy nhất, bỏ toàn bộ nhánh màu tối cũ. Header, hero, thông tin nhanh, tất cả section và footer cùng nền #faf9f6; ảnh hero nằm trong khối riêng trên nền sáng. Các khối giá, đánh giá và liên hệ dùng trực tiếp cùng biến nền. File CSS được gắn phiên bản styles.css?v=20261028 để trình duyệt lấy bản mới. Đã kiểm tra 320, 390, 768, 1440 px ở cả light/dark; không tràn ngang và mọi vùng nền chính cùng màu. Bằng chứng trong qa/oct28-background-checks.json và qa/oct28-*.png.
