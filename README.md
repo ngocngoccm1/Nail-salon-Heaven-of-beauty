@@ -18,7 +18,7 @@ Mở `index.html` hoặc chạy `python -m http.server 4173 --bind 127.0.0.1` tr
 
 ## Giao diện và ảnh
 
-Nền sáng đồng nhất (#faf9f6) xuyên suốt các phần nội dung, header và footer, giữ điểm nhấn xanh/đỏ, ảnh salon thật, bố cục desktop/mobile. Phần đầu giới thiệu đủ nhóm dịch vụ và nút chỉ đường, tiếp đến năm video, ba ô thông tin về vật liệu/chất lượng/vệ sinh, dịch vụ mi/head spa/massage, ảnh không gian salon, đánh giá, dịch vụ nail, bảng giá, thư viện, FAQ và liên hệ. Có nút gọi cố định trên điện thoại.
+Nền xanh rừng đồng nhất (#18392b) xuyên suốt các phần nội dung, header và footer; chữ trắng ngà (#f7f2e6), mô tả sáng rõ (#cbd5ca), điểm nhấn champagne (#e0c58b) và xanh lá (#0f5132), ảnh salon thật, bố cục desktop/mobile. Phần đầu giới thiệu đủ nhóm dịch vụ và nút chỉ đường, tiếp đến năm video, ba ô thông tin về vật liệu/chất lượng/vệ sinh, dịch vụ mi/head spa/massage, ảnh không gian salon, đánh giá, dịch vụ nail, bảng giá, thư viện, FAQ và liên hệ. Có nút gọi cố định trên điện thoại.
 
 18 ảnh do người dùng cung cấp được chuyển từ PNG sang WebP trong `assets/real/`. Không chỉnh sửa móng hoặc thêm chi tiết vào tệp ảnh; lớp phủ CSS làm dịu ảnh nền hero. Ảnh `photo-08.webp` dùng ở hero, `lashes-01.webp` giới thiệu dịch vụ mi; các ảnh vẫn xuất hiện đầy đủ trong thư viện. Ảnh pedicure bổ sung dùng tại ô dịch vụ pedicure (`assets/real/pedicure-treatment.webp`).
 
@@ -49,3 +49,10 @@ Kiểm tra 25/10/2026: Chromium ở 320, 390, 768, 1024 và 1440 px; không trà
 ## Sửa nền đồng nhất ngày 28/10/2026
 
 Gộp các khai báo màu về một bộ biến duy nhất, bỏ toàn bộ nhánh màu tối cũ. Header, hero, thông tin nhanh, tất cả section và footer cùng nền #faf9f6; ảnh hero nằm trong khối riêng trên nền sáng. Các khối giá, đánh giá và liên hệ dùng trực tiếp cùng biến nền. File CSS được gắn phiên bản styles.css?v=20261028 để trình duyệt lấy bản mới. Đã kiểm tra 320, 390, 768, 1440 px ở cả light/dark; không tràn ngang và mọi vùng nền chính cùng màu. Bằng chứng trong qa/oct28-background-checks.json và qa/oct28-*.png.
+
+
+## Cập nhật màu ngày 03/11/2026
+
+Theo góp ý mới của khách trong `codex-clipboard-34b6d580-29cd-4c79-9a63-1627cf829830.png`: khách thích màu đậm của phần đầu, chê phần dưới nhạt và gửi mẫu xanh rừng. Đổi toàn trang sang cùng nền xanh #18392b, dùng #0f5132 cho một số nút/chi tiết, chữ ngà và điểm nhấn champagne. Không xen kẽ nền sáng/tối giữa các section. Tăng cỡ và độ rõ chữ ở FAQ, giá, mô tả, liên hệ; làm rõ trạng thái tab và nút đặt lịch. Giá, thông tin dịch vụ, ảnh và liên kết giữ nguyên. CSS mang phiên bản `20261103`.
+
+Kiểm tra Chromium ở 320, 390, 768, 1440 px, mỗi cỡ ở cả thiết lập light/dark: nền toàn trang đồng nhất, không tràn ngang, menu và tab giá hoạt động; chữ chính, mô tả, giá và nút chính có tương phản tối thiểu 7,55:1. Không có lỗi JavaScript hoặc tài nguyên HTTP. Đã xem ảnh chụp hero, FAQ, bảng giá, đánh giá và liên hệ trên desktop/mobile. Kết quả: `qa/nov03-forest-checks.json`; ảnh chụp: `qa/nov03-*.png`; lệnh kiểm tra: `node qa/check-forest-theme.cjs` bằng runtime đi kèm.
