@@ -1,0 +1,570 @@
+[
+  {
+    "width": 320,
+    "colorScheme": "light",
+    "bands": [
+      {
+        "id": "videa",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "proc-k-nam",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "pece",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "salon",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "recenze",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "sluzby",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "cenik",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "inspirace",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "faq",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "kontakt",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 320
+      }
+    ],
+    "minimumTextContrast": 5.135165436649411,
+    "overflow": false,
+    "menuAndPrices": "passed",
+    "faq": "passed",
+    "errors": []
+  },
+  {
+    "width": 320,
+    "colorScheme": "dark",
+    "bands": [
+      {
+        "id": "videa",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "proc-k-nam",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "pece",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "salon",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "recenze",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "sluzby",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "cenik",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "inspirace",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "faq",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 320
+      },
+      {
+        "id": "kontakt",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 320
+      }
+    ],
+    "minimumTextContrast": 5.135165436649411,
+    "overflow": false,
+    "menuAndPrices": "passed",
+    "faq": "passed",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "colorScheme": "light",
+    "bands": [
+      {
+        "id": "videa",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "proc-k-nam",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "pece",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "salon",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "recenze",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "sluzby",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "cenik",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "inspirace",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "faq",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "kontakt",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 390
+      }
+    ],
+    "minimumTextContrast": 5.135165436649411,
+    "overflow": false,
+    "menuAndPrices": "passed",
+    "faq": "passed",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "colorScheme": "dark",
+    "bands": [
+      {
+        "id": "videa",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "proc-k-nam",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "pece",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "salon",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "recenze",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "sluzby",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "cenik",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "inspirace",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "faq",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 390
+      },
+      {
+        "id": "kontakt",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 390
+      }
+    ],
+    "minimumTextContrast": 5.135165436649411,
+    "overflow": false,
+    "menuAndPrices": "passed",
+    "faq": "passed",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "colorScheme": "light",
+    "bands": [
+      {
+        "id": "videa",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "proc-k-nam",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "pece",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "salon",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "recenze",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "sluzby",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "cenik",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "inspirace",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "faq",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "kontakt",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 768
+      }
+    ],
+    "minimumTextContrast": 5.135165436649411,
+    "overflow": false,
+    "menuAndPrices": "passed",
+    "faq": "passed",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "colorScheme": "dark",
+    "bands": [
+      {
+        "id": "videa",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "proc-k-nam",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "pece",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "salon",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "recenze",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "sluzby",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "cenik",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "inspirace",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "faq",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 768
+      },
+      {
+        "id": "kontakt",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 768
+      }
+    ],
+    "minimumTextContrast": 5.135165436649411,
+    "overflow": false,
+    "menuAndPrices": "passed",
+    "faq": "passed",
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "colorScheme": "light",
+    "bands": [
+      {
+        "id": "videa",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "proc-k-nam",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "pece",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "salon",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "recenze",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "sluzby",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "cenik",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "inspirace",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "faq",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "kontakt",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 1440
+      }
+    ],
+    "minimumTextContrast": 5.135165436649411,
+    "overflow": false,
+    "menuAndPrices": "passed",
+    "faq": "passed",
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "colorScheme": "dark",
+    "bands": [
+      {
+        "id": "videa",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "proc-k-nam",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "pece",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "salon",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "recenze",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "sluzby",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "cenik",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "inspirace",
+        "background": "rgb(223, 226, 224)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "faq",
+        "background": "rgb(205, 210, 208)",
+        "left": 0,
+        "right": 1440
+      },
+      {
+        "id": "kontakt",
+        "background": "rgb(40, 80, 90)",
+        "left": 0,
+        "right": 1440
+      }
+    ],
+    "minimumTextContrast": 5.135165436649411,
+    "overflow": false,
+    "menuAndPrices": "passed",
+    "faq": "passed",
+    "errors": []
+  }
+]

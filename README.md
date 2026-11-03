@@ -18,7 +18,7 @@ Mở `index.html` hoặc chạy `python -m http.server 4173 --bind 127.0.0.1` tr
 
 ## Giao diện và ảnh
 
-Nền xanh rừng đồng nhất (#18392b) xuyên suốt các phần nội dung, header và footer; chữ trắng ngà (#f7f2e6), mô tả sáng rõ (#cbd5ca), điểm nhấn champagne (#e0c58b) và xanh lá (#0f5132), ảnh salon thật, bố cục desktop/mobile. Phần đầu giới thiệu đủ nhóm dịch vụ và nút chỉ đường, tiếp đến năm video, ba ô thông tin về vật liệu/chất lượng/vệ sinh, dịch vụ mi/head spa/massage, ảnh không gian salon, đánh giá, dịch vụ nail, bảng giá, thư viện, FAQ và liên hệ. Có nút gọi cố định trên điện thoại.
+Tông xám ghi–xanh đậm cũ: nền sáng #dfe2e0, xám #cdd2d0, xanh đậm #28505a và than #343b3e xen kẽ theo phần. Hero dùng ảnh nền tối như bản cũ; chữ và liên kết tự đổi màu theo nền. Ảnh salon thật, bố cục desktop/mobile. Phần đầu giới thiệu đủ nhóm dịch vụ và nút chỉ đường, tiếp đến năm video, ba ô thông tin về vật liệu/chất lượng/vệ sinh, dịch vụ mi/head spa/massage, ảnh không gian salon, đánh giá, dịch vụ nail, bảng giá, thư viện, FAQ và liên hệ. Có nút gọi cố định trên điện thoại.
 
 18 ảnh do người dùng cung cấp được chuyển từ PNG sang WebP trong `assets/real/`. Không chỉnh sửa móng hoặc thêm chi tiết vào tệp ảnh; lớp phủ CSS làm dịu ảnh nền hero. Ảnh `photo-08.webp` dùng ở hero, `lashes-01.webp` giới thiệu dịch vụ mi; các ảnh vẫn xuất hiện đầy đủ trong thư viện. Ảnh pedicure bổ sung dùng tại ô dịch vụ pedicure (`assets/real/pedicure-treatment.webp`).
 
@@ -56,3 +56,10 @@ Gộp các khai báo màu về một bộ biến duy nhất, bỏ toàn bộ nh�
 Theo góp ý mới của khách trong `codex-clipboard-34b6d580-29cd-4c79-9a63-1627cf829830.png`: khách thích màu đậm của phần đầu, chê phần dưới nhạt và gửi mẫu xanh rừng. Đổi toàn trang sang cùng nền xanh #18392b, dùng #0f5132 cho một số nút/chi tiết, chữ ngà và điểm nhấn champagne. Không xen kẽ nền sáng/tối giữa các section. Tăng cỡ và độ rõ chữ ở FAQ, giá, mô tả, liên hệ; làm rõ trạng thái tab và nút đặt lịch. Giá, thông tin dịch vụ, ảnh và liên kết giữ nguyên. CSS mang phiên bản `20261103`.
 
 Kiểm tra Chromium ở 320, 390, 768, 1440 px, mỗi cỡ ở cả thiết lập light/dark: nền toàn trang đồng nhất, không tràn ngang, menu và tab giá hoạt động; chữ chính, mô tả, giá và nút chính có tương phản tối thiểu 7,55:1. Không có lỗi JavaScript hoặc tài nguyên HTTP. Đã xem ảnh chụp hero, FAQ, bảng giá, đánh giá và liên hệ trên desktop/mobile. Kết quả: `qa/nov03-forest-checks.json`; ảnh chụp: `qa/nov03-*.png`; lệnh kiểm tra: `node qa/check-forest-theme.cjs` bằng runtime đi kèm.
+
+
+## Khôi phục màu cũ và phối xen kẽ (03/11/2026)
+
+Theo yêu cầu mới nhất và ảnh `codex-clipboard-04cd31ac-4de9-43e0-a2b7-f318439c9d6f.png`, bỏ nền xanh rừng phủ toàn trang và điểm nhấn champagne; khôi phục tông xám ghi, xanh đậm, chi tiết đỏ của bản cũ. Khôi phục hero ảnh nền toàn khung với lớp phủ tối. Các section sáng, xám và xanh đậm xen kẽ; đánh giá/liên hệ dùng xanh đậm. Dải màu phủ toàn bộ chiều ngang, nội dung giữ giới hạn chiều rộng để đọc dễ. Header/footer dùng màu than. Giữ các cỡ chữ dễ đọc đã cải thiện và toàn bộ dữ liệu, ảnh, liên kết. CSS phiên bản `20261103b`.
+
+Đã kiểm tra 320, 390, 768, 1440 px ở cả light/dark: đúng màu từng section, dải màu không hở lề, không tràn ngang; menu, tab giá và FAQ hoạt động; chữ kiểm tra có tương phản tối thiểu 5,13:1. Ảnh chụp và kết quả tại `qa/nov03-alternating-*`. Lệnh kiểm tra phiên bản hiện tại: `node qa/check-alternating-theme.cjs` bằng runtime đi kèm. Các báo cáo kiểm tra màu trước đó là bằng chứng của những phiên bản cũ.
